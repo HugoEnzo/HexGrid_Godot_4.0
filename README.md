@@ -6,12 +6,17 @@
 
 <u>Public variables and methods:</u>
 
+
+Variable - 
+
 var is_flat: Determines drawing style of flat or pointy topped hex
 
 var size: A Vector2 of given hex size. x doesnt not have to equal y
 
 var origin: The x/y position of the origin of the grid
 
+
+Functions- 
 
 func add_hex(hex, data): Add new data to an unoccupied hex.
 
@@ -31,7 +36,11 @@ func rotate_hex_left(hex):
 
 func rotate_hex_right(hex):
 
+
+
 <u>Pixel funcs and things useful to drawing.</u>
+
+
 
 func hex_to_pixel(hex): x,y for a given hex.
 
@@ -43,7 +52,10 @@ func hex_corner_offset(corner): Vector2 Offset for a given corner based on layou
 
 func hex_corners(hex): Array of Vector2 locations to draw a full hex.
 
+
 <u>Neighbor and Distance Utility Functions</u>
+
+
 
 func neighbor_hex(hex, direction):
 
