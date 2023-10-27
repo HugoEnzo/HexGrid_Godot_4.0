@@ -1,6 +1,8 @@
 # HexGrid_Godot_4.0
 <u>HexGrid library with functions based on www.redblobgames.com 's implementation:</u>
 
+Godot asset store link: https://godotengine.org/asset-library/asset/2292
+
  - Make an addons folder on your project's (res://) folder and then move HexMap folder to the addons folder
  - Navigate to your project settings -> plugins -> and then add the plugin to your project
 
